@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
                 }else if(item.getItemId()==R.id.orders){
                     setCurrentFragment(ordersFragment, true);
                 }
-
+                System.out.println("Clicked !");
 
                 return false;
             }
